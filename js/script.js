@@ -1,3 +1,4 @@
+/* eslint-disable no-inner-declarations */
 {
   'use strict';
   /*document.getElementById('test-button').addEventListener('click', function(){*/
@@ -329,6 +330,7 @@
     generateTitleLinks('[data-author="' + author + '"]');
   }
 
+  // eslint-disable-next-line no-inner-declarations
   function addClickListenersToAuthors(){
     /* find all links to authors */
 
